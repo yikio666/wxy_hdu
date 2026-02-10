@@ -35,6 +35,9 @@ public interface GoodsMapper {
     */
     List<Goods> selectAll(Goods goods);
 
+    // 添加方法
+    List<Goods> selectTop10();
+
 
 
 }

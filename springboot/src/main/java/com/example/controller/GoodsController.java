@@ -19,6 +19,7 @@ public class GoodsController {
     @Resource
     private GoodsService goodsService;
 
+
     /**
      * 新增
      */
@@ -73,6 +74,13 @@ public class GoodsController {
                              @RequestParam(defaultValue = "10") Integer pageSize) {
         PageInfo<Goods> page = goodsService.selectPage(goods, pageNum, pageSize);
         return Result.success(page);
+    }
+
+    // 添加接口
+    @GetMapping("/selectTop10")
+    public Result selectTop10() {
+        List<Goods> list = goodsService.selectTop10();
+        return Result.success(list);
     }
 
 }

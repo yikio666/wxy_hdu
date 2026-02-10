@@ -80,6 +80,11 @@ public class GoodsService {
         return PageInfo.of(list);
     }
 
+    // 添加方法
+    public List<Goods> selectTop10() {
+        return goodsMapper.selectTop10();
+    }
+
 
 
 }

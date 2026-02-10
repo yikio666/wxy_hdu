@@ -16,6 +16,8 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
+import java.util.Map; // 新增导入
+
 /**
  * 业务处理
  **/
@@ -146,6 +148,13 @@ public class OrdersService {
             o.setOrderDetailList(orderDetailList);
         }
         return PageInfo.of(list);
+    }
+
+    /**
+     * 查询宿舍购买力
+     */
+    public List<Map<String, Object>> selectPurchasePower() {
+        return ordersMapper.selectPurchasePower();
     }
 
 }

@@ -86,4 +86,23 @@
         where id = #{id}
     </update>
 
+    <!-- 修改后的统计查询：模糊匹配关键字进行分组 -->
+    <select id="selectPurchasePower" resultType="java.util.Map">
+        SELECT
+            CASE
+                WHEN address LIKE '%南区%' THEN '南区'
+                WHEN address LIKE '%北区%' THEN '北区'
+                ELSE '其他区域'
+                END AS name,
+            SUM(total) AS value
+        FROM orders
+        WHERE address IS NOT NULL AND address != ''
+        GROUP BY
+            CASE
+            WHEN address LIKE '%南区%' THEN '南区'
+            WHEN address LIKE '%北区%' THEN '北区'
+            ELSE '其他区域'
+        END
+    </select>
+
 </mapper>

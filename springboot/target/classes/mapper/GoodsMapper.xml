@@ -104,4 +104,9 @@
         where id = #{id}
     </update>
 
+    <!-- 在 <mapper> 标签内部添加 -->
+    <select id="selectTop10" resultType="com.example.entity.Goods">
+        select * from goods order by sale_count desc limit 10
+    </select>
+
 </mapper>

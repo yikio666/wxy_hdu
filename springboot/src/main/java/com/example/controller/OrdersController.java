@@ -8,6 +8,7 @@ import jakarta.annotation.Resource;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.Map; // 新增导入
 
 /**
  * 前端操作接口
@@ -73,6 +74,15 @@ public class OrdersController {
                              @RequestParam(defaultValue = "10") Integer pageSize) {
         PageInfo<Orders> page = ordersService.selectPage(orders, pageNum, pageSize);
         return Result.success(page);
+    }
+
+    /**
+     * 统计宿舍购买力 (消费总额排行)
+     */
+    @GetMapping("/purchase-power")
+    public Result selectPurchasePower() {
+        List<Map<String, Object>> list = ordersService.selectPurchasePower();
+        return Result.success(list);
     }
 
 }
