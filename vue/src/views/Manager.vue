@@ -1,9 +1,9 @@
 <template>
   <div>
-    <div style="height: 60px; background-color: #2e3143; display: flex; align-items: center; border-bottom: 1px solid #ddd">
+    <div style="height: 60px; background-color: #FF5000; display: flex; align-items: center; border-bottom: 1px solid #ddd">
       <div style="flex: 1">
         <div style="padding-left: 20px; display: flex; align-items: center">
-          <img src="@/assets/imgs/logo.png" alt="" style="width: 40px">
+          <img src="@/assets/imgs/shoppinglogo.png" alt="" style="width: 40px">
           <div style="font-weight: bold; font-size: 24px; margin-left: 5px; color: #fff">校园便利店后台</div>
         </div>
       </div>

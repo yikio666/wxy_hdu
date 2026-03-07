@@ -1,15 +1,15 @@
 <template>
     <div>
-        <div style="height: 60px; background-color: #2e3143; display: flex; align-items: center;">
+        <div style="height: 60px; background-color: #FF5000; display: flex; align-items: center;">
             <div style="width: 20%">
                 <div style="padding-left: 20px; display: flex; align-items: center">
-                    <img src="@/assets/imgs/logo.png" alt="" style="width: 40px">
+                    <img src="@/assets/imgs/shoppinglogo.png" alt="" style="width: 40px">
                     <div style="font-weight: bold; font-size: 24px; margin-left: 5px; color: #fff">校园便利店</div>
                 </div>
             </div>
             <div style="width: 60%; height: 60px; display: flex; align-items: center">
                 <div style="flex: 1">
-                    <el-menu router :default-active="router.currentRoute.value.path" style="background-color: #2e3143;" ellipsis mode="horizontal">
+                    <el-menu router :default-active="router.currentRoute.value.path" style="background-color: #FF5000;" ellipsis mode="horizontal">
                         <el-menu-item index="/front/home">首页</el-menu-item>
                         <el-menu-item index="/front/goods">精选商品</el-menu-item>
                         <el-menu-item index="/front/cart">购物车</el-menu-item>
