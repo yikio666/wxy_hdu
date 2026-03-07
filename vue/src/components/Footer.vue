@@ -2,7 +2,7 @@
   <div style="min-height: 100px; background-color: #333; color: white;">
       <div style="width: 30%; margin: 0 auto">
           <div style=" padding:20px; display:flex ; grid-gap: 5px; justify-content: center; align-items: center ">
-              <img src="@/assets/imgs/logo.png" alt="" style="width: 30px">
+              <img src="@/assets/imgs/shoppinglogo.png" alt="" style="width: 30px">
               <div style="front-size: 25px">校园便利店</div>
           </div>
           <div style="margin-bottom: 20px;display: flex;font-size: 18px">
