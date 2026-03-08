@@ -54,10 +54,6 @@
                     <el-icon><Document /></el-icon>
                     <span>用户收藏</span>
                 </el-menu-item>
-                <el-menu-item index="/manager/collect">
-                    <el-icon><Document /></el-icon>
-                    <span>用户收藏</span>
-                </el-menu-item>
                 <el-menu-item index="/manager/recharge">
                     <el-icon><Document /></el-icon>
                     <span>用户充值</span>
