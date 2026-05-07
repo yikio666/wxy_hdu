@@ -1,0 +1,528 @@
+{
+  "frontend": {
+    "count": 58,
+    "endpoints": [
+      {
+        "method": "POST",
+        "path": "/admin/add"
+      },
+      {
+        "method": "DELETE",
+        "path": "/admin/delete/{id}"
+      },
+      {
+        "method": "GET",
+        "path": "/admin/selectById/{id}"
+      },
+      {
+        "method": "GET",
+        "path": "/admin/selectPage"
+      },
+      {
+        "method": "PUT",
+        "path": "/admin/update"
+      },
+      {
+        "method": "POST",
+        "path": "/carousel/add"
+      },
+      {
+        "method": "DELETE",
+        "path": "/carousel/delete/{id}"
+      },
+      {
+        "method": "GET",
+        "path": "/carousel/selectAll"
+      },
+      {
+        "method": "GET",
+        "path": "/carousel/selectPage"
+      },
+      {
+        "method": "PUT",
+        "path": "/carousel/update"
+      },
+      {
+        "method": "POST",
+        "path": "/cart/add"
+      },
+      {
+        "method": "DELETE",
+        "path": "/cart/delete/{id}"
+      },
+      {
+        "method": "GET",
+        "path": "/cart/selectAll"
+      },
+      {
+        "method": "PUT",
+        "path": "/cart/update"
+      },
+      {
+        "method": "POST",
+        "path": "/category/add"
+      },
+      {
+        "method": "DELETE",
+        "path": "/category/delete/{id}"
+      },
+      {
+        "method": "GET",
+        "path": "/category/selectAll"
+      },
+      {
+        "method": "GET",
+        "path": "/category/selectPage"
+      },
+      {
+        "method": "PUT",
+        "path": "/category/update"
+      },
+      {
+        "method": "POST",
+        "path": "/collect/add"
+      },
+      {
+        "method": "DELETE",
+        "path": "/collect/delete/{id}"
+      },
+      {
+        "method": "GET",
+        "path": "/collect/selectAll"
+      },
+      {
+        "method": "GET",
+        "path": "/collect/selectPage"
+      },
+      {
+        "method": "PUT",
+        "path": "/collect/update"
+      },
+      {
+        "method": "POST",
+        "path": "/comment/add"
+      },
+      {
+        "method": "DELETE",
+        "path": "/comment/delete/{id}"
+      },
+      {
+        "method": "GET",
+        "path": "/comment/selectAll"
+      },
+      {
+        "method": "GET",
+        "path": "/comment/selectPage"
+      },
+      {
+        "method": "PUT",
+        "path": "/comment/update"
+      },
+      {
+        "method": "GET",
+        "path": "/count"
+      },
+      {
+        "method": "POST",
+        "path": "/files/upload"
+      },
+      {
+        "method": "POST",
+        "path": "/files/wang/upload"
+      },
+      {
+        "method": "POST",
+        "path": "/goods/add"
+      },
+      {
+        "method": "DELETE",
+        "path": "/goods/delete/{id}"
+      },
+      {
+        "method": "GET",
+        "path": "/goods/selectAll"
+      },
+      {
+        "method": "GET",
+        "path": "/goods/selectById/{id}"
+      },
+      {
+        "method": "GET",
+        "path": "/goods/selectPage"
+      },
+      {
+        "method": "GET",
+        "path": "/goods/selectTop10"
+      },
+      {
+        "method": "PUT",
+        "path": "/goods/update"
+      },
+      {
+        "method": "POST",
+        "path": "/login"
+      },
+      {
+        "method": "POST",
+        "path": "/orders/add"
+      },
+      {
+        "method": "DELETE",
+        "path": "/orders/delete/{id}"
+      },
+      {
+        "method": "GET",
+        "path": "/orders/purchase-power"
+      },
+      {
+        "method": "GET",
+        "path": "/orders/selectPage"
+      },
+      {
+        "method": "PUT",
+        "path": "/orders/update"
+      },
+      {
+        "method": "POST",
+        "path": "/recharge/add"
+      },
+      {
+        "method": "DELETE",
+        "path": "/recharge/delete/{id}"
+      },
+      {
+        "method": "GET",
+        "path": "/recharge/selectPage"
+      },
+      {
+        "method": "PUT",
+        "path": "/recharge/update"
+      },
+      {
+        "method": "POST",
+        "path": "/register"
+      },
+      {
+        "method": "GET",
+        "path": "/selectLine"
+      },
+      {
+        "method": "GET",
+        "path": "/selectPie"
+      },
+      {
+        "method": "PUT",
+        "path": "/updatePassword"
+      },
+      {
+        "method": "POST",
+        "path": "/user/add"
+      },
+      {
+        "method": "DELETE",
+        "path": "/user/delete/{id}"
+      },
+      {
+        "method": "GET",
+        "path": "/user/selectById/{id}"
+      },
+      {
+        "method": "GET",
+        "path": "/user/selectPage"
+      },
+      {
+        "method": "PUT",
+        "path": "/user/update"
+      }
+    ]
+  },
+  "backend": {
+    "count": 71,
+    "endpoints": [
+      {
+        "method": "GET",
+        "path": "/"
+      },
+      {
+        "method": "POST",
+        "path": "/admin/add"
+      },
+      {
+        "method": "DELETE",
+        "path": "/admin/delete/{id}"
+      },
+      {
+        "method": "GET",
+        "path": "/admin/selectAll"
+      },
+      {
+        "method": "GET",
+        "path": "/admin/selectById/{id}"
+      },
+      {
+        "method": "GET",
+        "path": "/admin/selectPage"
+      },
+      {
+        "method": "PUT",
+        "path": "/admin/update"
+      },
+      {
+        "method": "POST",
+        "path": "/carousel/add"
+      },
+      {
+        "method": "DELETE",
+        "path": "/carousel/delete/{id}"
+      },
+      {
+        "method": "GET",
+        "path": "/carousel/selectAll"
+      },
+      {
+        "method": "GET",
+        "path": "/carousel/selectById/{id}"
+      },
+      {
+        "method": "GET",
+        "path": "/carousel/selectPage"
+      },
+      {
+        "method": "PUT",
+        "path": "/carousel/update"
+      },
+      {
+        "method": "POST",
+        "path": "/cart/add"
+      },
+      {
+        "method": "DELETE",
+        "path": "/cart/delete/{id}"
+      },
+      {
+        "method": "GET",
+        "path": "/cart/selectAll"
+      },
+      {
+        "method": "GET",
+        "path": "/cart/selectById/{id}"
+      },
+      {
+        "method": "GET",
+        "path": "/cart/selectPage"
+      },
+      {
+        "method": "PUT",
+        "path": "/cart/update"
+      },
+      {
+        "method": "POST",
+        "path": "/category/add"
+      },
+      {
+        "method": "DELETE",
+        "path": "/category/delete/{id}"
+      },
+      {
+        "method": "GET",
+        "path": "/category/selectAll"
+      },
+      {
+        "method": "GET",
+        "path": "/category/selectById/{id}"
+      },
+      {
+        "method": "GET",
+        "path": "/category/selectPage"
+      },
+      {
+        "method": "PUT",
+        "path": "/category/update"
+      },
+      {
+        "method": "POST",
+        "path": "/collect/add"
+      },
+      {
+        "method": "DELETE",
+        "path": "/collect/delete/{id}"
+      },
+      {
+        "method": "GET",
+        "path": "/collect/selectAll"
+      },
+      {
+        "method": "GET",
+        "path": "/collect/selectById/{id}"
+      },
+      {
+        "method": "GET",
+        "path": "/collect/selectPage"
+      },
+      {
+        "method": "PUT",
+        "path": "/collect/update"
+      },
+      {
+        "method": "POST",
+        "path": "/comment/add"
+      },
+      {
+        "method": "DELETE",
+        "path": "/comment/delete/{id}"
+      },
+      {
+        "method": "GET",
+        "path": "/comment/selectAll"
+      },
+      {
+        "method": "GET",
+        "path": "/comment/selectById/{id}"
+      },
+      {
+        "method": "GET",
+        "path": "/comment/selectPage"
+      },
+      {
+        "method": "PUT",
+        "path": "/comment/update"
+      },
+      {
+        "method": "GET",
+        "path": "/count"
+      },
+      {
+        "method": "GET",
+        "path": "/files/download/{fileName}"
+      },
+      {
+        "method": "POST",
+        "path": "/files/upload"
+      },
+      {
+        "method": "POST",
+        "path": "/files/wang/upload"
+      },
+      {
+        "method": "POST",
+        "path": "/goods/add"
+      },
+      {
+        "method": "DELETE",
+        "path": "/goods/delete/{id}"
+      },
+      {
+        "method": "GET",
+        "path": "/goods/selectAll"
+      },
+      {
+        "method": "GET",
+        "path": "/goods/selectById/{id}"
+      },
+      {
+        "method": "GET",
+        "path": "/goods/selectPage"
+      },
+      {
+        "method": "GET",
+        "path": "/goods/selectTop10"
+      },
+      {
+        "method": "PUT",
+        "path": "/goods/update"
+      },
+      {
+        "method": "POST",
+        "path": "/login"
+      },
+      {
+        "method": "POST",
+        "path": "/orders/add"
+      },
+      {
+        "method": "DELETE",
+        "path": "/orders/delete/{id}"
+      },
+      {
+        "method": "GET",
+        "path": "/orders/purchase-power"
+      },
+      {
+        "method": "GET",
+        "path": "/orders/selectAll"
+      },
+      {
+        "method": "GET",
+        "path": "/orders/selectById/{id}"
+      },
+      {
+        "method": "GET",
+        "path": "/orders/selectPage"
+      },
+      {
+        "method": "PUT",
+        "path": "/orders/update"
+      },
+      {
+        "method": "POST",
+        "path": "/recharge/add"
+      },
+      {
+        "method": "DELETE",
+        "path": "/recharge/delete/{id}"
+      },
+      {
+        "method": "GET",
+        "path": "/recharge/selectAll"
+      },
+      {
+        "method": "GET",
+        "path": "/recharge/selectById/{id}"
+      },
+      {
+        "method": "GET",
+        "path": "/recharge/selectPage"
+      },
+      {
+        "method": "PUT",
+        "path": "/recharge/update"
+      },
+      {
+        "method": "POST",
+        "path": "/register"
+      },
+      {
+        "method": "GET",
+        "path": "/selectLine"
+      },
+      {
+        "method": "GET",
+        "path": "/selectPie"
+      },
+      {
+        "method": "PUT",
+        "path": "/updatePassword"
+      },
+      {
+        "method": "POST",
+        "path": "/user/add"
+      },
+      {
+        "method": "DELETE",
+        "path": "/user/delete/{id}"
+      },
+      {
+        "method": "GET",
+        "path": "/user/selectById/{id}"
+      },
+      {
+        "method": "GET",
+        "path": "/user/selectPage"
+      },
+      {
+        "method": "PUT",
+        "path": "/user/update"
+      }
+    ]
+  }
+}
